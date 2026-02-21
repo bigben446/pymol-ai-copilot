@@ -16,7 +16,7 @@ Supports:
 1. Install dependency
 
 ```bash
-D:\Pymol\python.exe -m pip install openai
+你的pymol目录/python.exe -m pip install openai
 ```
 
 2. Configure API
@@ -30,7 +30,7 @@ api_key="YOUR_KEY"
 3. Load plugin in PyMOL
 
 ```python
-run D:/Pymol/ai_pymol.py
+run 你的pymol目录/ai_pymol.py
 ```
 
 ## Example Usage
