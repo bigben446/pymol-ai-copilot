@@ -1,0 +1,40 @@
+# PyMOL AI Copilot - Demo Commands
+
+## Basic Structure Loading
+
+ai 加载1ubq并显示为卡通
+ai Load 1ubq and show as cartoon
+ai fetch 1m17 and display as surface
+
+## Alignment
+
+ai 加载1ubq和1ubi并对齐
+ai Load 1crn and 1urn and align them
+
+## Ligand Analysis
+
+ai 加载1m17并显示配体周围5埃范围的残基为棒状
+ai Show ligand pocket within 5 angstrom in sticks
+ai Highlight residues around ligand in sphere representation
+
+## Hydrogen Bonds
+
+ai 加载1m17并显示配体与蛋白之间的氢键
+ai Show hydrogen bonds between ligand and protein
+
+## Surface and Color
+
+ai 加载1ubq并按链上色
+ai Load 1ubq and color by chain
+ai Show surface with electrostatic potential
+
+## Rendering
+
+ai 加载1ubq并渲染高清图片
+ai Load 1ubq and render high quality image
+ai Set white background and ray trace
+
+## Complex Scenes
+
+ai 加载1m17，显示配体为球棍模型，蛋白为卡通，背景白色
+ai Load 1a2b, show ligand as sticks, protein as cartoon, set background white
