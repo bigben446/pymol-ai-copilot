@@ -33,10 +33,8 @@ def clean_output(text):
         return ""
 
     # 去掉
-    if "
-```" in text:
-        text = text.split("
-```")[-1]
+    if "```" in text:
+        text = text.split("```")[-1]
 
     # 提取代码块
     code_block = re.search(r"```(?:python)?\n(.*?)```", text, re.DOTALL)
